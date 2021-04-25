@@ -13,6 +13,14 @@ module.exports = {
         ],
         serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       },
+      backgroundColor: {
+        primary: "var(--color-bg-primary)",
+        secondary: "var(--color-bg-secondary)",
+      },
+      textColor: {
+        primary: "var(--color-text-primary)",
+        secondary: "var(--color-text-secondary)",
+      },
     },
   },
   variants: {},
