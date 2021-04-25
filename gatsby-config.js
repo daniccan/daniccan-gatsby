@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Daniccan Veerapandian`,
+    title: `DANICCAN VEERAPANDIAN`,
     description: `Personal Website of Daniccan`,
     author: `Daniccan`,
+    socialMedia: {
+      twitter: "https://twitter.com/PassionDani",
+      linkedIn: "https://www.linkedin.com/in/daniccan-veerapandian-49921650/",
+      github: "https://github.com/daniccan",
+      stackOverflow: "https://stackoverflow.com/users/2764789/daniccan",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

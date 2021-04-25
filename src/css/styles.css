@@ -1,14 +1,14 @@
 :root {
-  --color-bg-primary: #2d3748;
+  --color-bg-primary: #353b43;
   --color-bg-secondary: #feebc8;
   --color-bg-tertiary: #353e50;
 
-  --color-text-primary: #fbd38d;
+  --color-text-primary: #57cc8a;
   --color-text-secondary: #feebc8;
   --color-text-tertiary: #fffaf0;
 
-  --color-text-footer-primary: #2d3748;
-  --color-text-footer-secondary: #2d3748;
+  --color-text-footer-primary: #353b43;
+  --color-text-footer-secondary: #353b43;
 }
 
 @import "tailwindcss/base";
