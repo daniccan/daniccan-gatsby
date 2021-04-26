@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { ThemeProvider } from "../context/themeContext"
 import Header from "./header"
 import Footer from "./footer"
+import MobileNav from "./mobileNav"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,6 +21,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <ThemeProvider>
+        <MobileNav siteTitle={data.site.siteMetadata.title} />
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <Footer />

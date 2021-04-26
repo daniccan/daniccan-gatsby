@@ -16,7 +16,13 @@
 @import "tailwindcss/utilities";
 
 body {
-  @apply text-primary; 
+  @apply antialiased;
+  @apply text-primary;
   @apply bg-primary;
   transition: background 350ms ease 0s;
+}
+
+a,
+button {
+  @apply outline-none;
 }
