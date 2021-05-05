@@ -4,18 +4,24 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          "Lato",
-          "Helvetica Neue",
           "Inter",
-          "Helvetica",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
           "Arial",
+          '"Noto Sans"',
           "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
         ],
-        serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       },
       backgroundColor: {
         primary: "var(--color-bg-primary)",
         secondary: "var(--color-bg-secondary)",
+        tertiary: "var(--color-bg-tertiary)",
       },
       textColor: {
         primary: "var(--color-text-primary)",

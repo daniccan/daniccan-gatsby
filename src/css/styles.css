@@ -1,3 +1,5 @@
+@import url("https://rsms.me/inter/inter.css");
+
 :root {
   --color-bg-primary: #353b43;
   --color-bg-secondary: #feebc8;
@@ -19,7 +21,7 @@ body {
   @apply antialiased;
   @apply text-primary;
   @apply bg-primary;
-  transition: background 350ms ease 0s;
+  transition: background 300ms ease 0s;
 }
 
 a,

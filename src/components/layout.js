@@ -23,7 +23,9 @@ const Layout = ({ children }) => {
       <ThemeProvider>
         <MobileNav siteTitle={data.site.siteMetadata.title} />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
+        <main className="min-h-screen container m-auto px-5 md:px-20 pb-40 max-w-screen-xl">
+          {children}
+        </main>
         <Footer />
       </ThemeProvider>
     </>
